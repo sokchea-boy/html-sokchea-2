@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>My Simple Website☕</h1>
+        <nav class="navbar">
+            <div class="logo">My Simple Website☕</div>
+            <ul class="nav-links">
+                <li><a href="#welcome"><i class="fas fa-home"></i> Welcome</a></li>
+                <li><a href="#about-us"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+                <li><a href="#our-sevics"><i class="fas fa-cogs"></i> Our Services</a></li>
+                <li><a href="#our-portfolio"><i class="fas fa-briefcase"></i> Our Portfolio</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="container">
         <main>
             <section id=" welcome">
-                <h2>Welcome to My Website</h2>
+                <h1>Welcome to My Website</h1>
                 <p>This is the main content area where you can introduce your website.</p>
             </section>
             <section id="about-us">
-                <h2>About Us</h2>
+                <h1>About Us</h1>
                 <p>Information about the company or website. Here you can talk about your mission, vision, and values.</p>
             </section>
             <section id="our-sevics">
@@ -25,19 +34,19 @@
                 <div class="card-container">
                     <div class="card">
                         <img src="./img/aba_bakong_banner_en_v5.png" alt="">
-                        <h2>Bakong-ABA Transfers</h2>
+                        <h2><i class="fa-duotone fa-solid fa-arrow-right-arrow-left"></i> Bakong-ABA Transfers</h2>
                         <p>Detail about the first Service</p>
                         <button>Read more>></button>
                     </div>
                     <div class="card">
                         <img src="./img/ABA_GDT.jpg" alt="">
-                        <h2>Tax collection</h2>
+                        <h2><i class="fa-duotone fa-solid fa-calculator"></i> Tax collection</h2>
                         <p>Detail about the first Service</p>
                         <button>Read more>></button>
                     </div>
                     <div class="card">
                         <img src="./img/web_benefits_of_using_aba_payroll_en.jpg" alt="">
-                        <h2>Payroll Service </h2>
+                        <h2><i class="fa-solid fa-money-bill-wave"></i> Payroll Service </h2>
                         <p>Detail about the first Service</p>
                         <button>Read more>></button>
                     </div>
@@ -46,28 +55,46 @@
             <section id="our-portfolio">
                 <h2>Our Portfolio</h2>
                 <div id="card-container">
-                    <div id="card">
+                    <div id="portfolio-container">
                         <img src="./img/aba_bakong_banner_en_v5.png" alt="">
-                        <h2>Project One</h2>
+                        <h2><i class="fa-solid fa-folder-open"></i> Project One</h2>
                         <p>Description of project one.</p>
                        
                     </div>
-                    <div id="card">
+                    <div id="portfolio-container">
                         <img src="./img/ABA_GDT.jpg" alt="">
-                        <h2>Project Two</h2>
+                        <h2><i class="fa-solid fa-folder-open"></i> Project Two</h2>
                         <p>Description of project two.</p>
                         
                     </div>
-                    <div id="card">
+                    <div id="portfolio-container">
                         <img src="./img/web_benefits_of_using_aba_payroll_en.jpg" alt="">
-                        <h2>Project Three </h2>
+                        <h2><i class="fa-solid fa-folder-open"></i> Project Three </h2>
                         <p>Description of project three.</p>
                         
                     </div>
                 </div>
             </section>
         </main>
-        <aside></aside>
+        <aside>
+            <div class="new">
+                <div class="website">
+                    <h3>About This Website <i class="fa-sharp-duotone fa-solid fa-circle-info"></i></h3>
+                    <p>This website is designed to showcase <br>our services and portfolio.Explore our <br>offerings and learn more about us! <i class="fa-duotone fa-solid fa-lightbulb"></i></p>
+                </div>
+                <div class="links">
+                    <h4>Useful Links <i class="fa-solid fa-link"></i></h4>
+                    <p><i class="fa-solid fa-arrow-right"></i> Welcome Section</p>
+                    <p><i class="fa-solid fa-arrow-right"></i> Learn More About Us</p>
+                    <p><i class="fa-solid fa-arrow-right"></i> Explore Our Services</p>
+                    <p><i class="fa-solid fa-arrow-right"></i> View Our Portfolio</p>
+                </div>
+                <div class="contact">
+                    <h4>Contact Us <i class="fa-solid fa-envelope"></i></h4>
+                    <p> If You have any questions, feel free to <br><a href="contact"><i class="fa-solid fa-envelope"></i> contact us !</a></p>
+                </div>
+            </div>
+        </aside>
     </div>
     <footer>
         <p>@ 2024 MY Simple Website</p>
